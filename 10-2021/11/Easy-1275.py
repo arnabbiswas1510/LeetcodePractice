@@ -15,7 +15,7 @@ class Solution:
             d2[id] += r + c == 2
             if 3 in (row[id][r], col[id][c], d1[id], d2[id]):
                 return 'AB'[id]
-            id ^= 1
+            id ^= 1 #Toggle id
         return 'Draw' if len(moves) == 9 else 'Pending'
 
 

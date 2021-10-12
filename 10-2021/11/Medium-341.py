@@ -32,7 +32,7 @@ class NestedIterator(object):
         return False
 
 
-s = NestedIterator([[1,1],2,[1,1]])
+s = NestedIterator([1,[1,1],2,[1,1]])
 print(s.next())
 print(s.next())
 print(s.next())
