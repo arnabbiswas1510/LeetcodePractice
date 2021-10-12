@@ -1,5 +1,5 @@
 """
-https://leetcode.com/problems/data-stream-as-disjoint-intervals
+https://leetcode.com/problems/data-strea-as-disjoint-intervals
 """
 
 class SummaryRanges:
